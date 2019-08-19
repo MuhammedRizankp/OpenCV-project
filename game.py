@@ -31,7 +31,7 @@ while True:
 				keyboard.release('up')
 				
 		prev_x,prev_y=next_x,next_y
-	#time.time()
+#time.time()
 	count+=1
 	cv2.imshow("Frame",frame)
 	if cv2.waitKey(1) & 0xFF == ord('q'):
